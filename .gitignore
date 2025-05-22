@@ -1,0 +1,17 @@
+/target
+.vscode/launch.json
+Cargo.lock
+*.exe
+log/
+save_file/
+.svn
+%USERPROFILE%/
+.vscode/
+__pycache__
+*.out
+*.csv
+*.txt
+*.~lock*
+*.log
+log/udp_server.log
+config.ini

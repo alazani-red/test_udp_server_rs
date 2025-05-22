@@ -1,0 +1,16 @@
+[package]
+name = "udp_server_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+socket2 = "0.4"
+libc = "0.2"
+log = "0.4"
+nix = { version = "0.28", features = ["socket", "uio", "net"] } 
+paho-mqtt = "0.12.5"
+env_logger = "0.10.0"  # Or the latest version
+log4rs = "1.3.0"
+confy = "^0.4"
+serde = "^1.0"
+serde_derive = "^1.0"
